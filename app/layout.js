@@ -1,4 +1,4 @@
-import { Header } from '@/components';
+import { Header, Footer } from '@/components';
 
 import './globals.css';
 
@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

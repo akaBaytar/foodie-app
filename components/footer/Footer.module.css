@@ -1,0 +1,49 @@
+.footer {
+  position: relative;
+  color: #ddd6cb;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo a {
+  color: #ddd6cb;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.social a {
+  color: #ddd6cb;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.25s ease-in-out;
+}
+
+.social a:hover {
+  color: #fff;
+}
+
+.copy {
+  margin-block-start: 1.5rem;
+  font-size: 0.75rem;
+  user-select: none;
+}
+
+@media (width >= 768px) {
+  .footer {
+    padding: 0.5rem 10%;
+  }
+}

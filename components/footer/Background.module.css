@@ -1,0 +1,13 @@
+.footerBackground {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.footerBackground svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
