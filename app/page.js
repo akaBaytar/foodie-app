@@ -1,11 +1,16 @@
 import Link from 'next/link';
+
+import { Slideshow } from '@/components';
+
 import classes from './page.module.css';
 
 export default function Home() {
   return (
     <>
       <header className={classes.header}>
-        <div className={classes.slideshow}></div>
+        <div className={classes.slideshow}>
+          <Slideshow />
+        </div>
         <div className={classes.container}>
           <div className={classes.hero}>
             <h1>Next level food for next level foodies</h1>
@@ -21,18 +26,18 @@ export default function Home() {
         <section className={classes.section}>
           <h2>How it works</h2>
           <p>
-            Foodies is a platform for foodies to share their favorite
-            recipes with the world. It&apos;s a place to discover new dishes,
-            and to connect with other food lovers.
+            Foodies is a platform for foodies to share their favorite recipes
+            with the world. It&apos;s a place to discover new dishes, and to
+            connect with other food lovers.
           </p>
         </section>
 
         <section className={classes.section}>
           <h2>Why Foodies?</h2>
           <p>
-            Foodies is a platform for foodies to share their favorite
-            recipes with the world. It&apos;s a place to discover new dishes,
-            and to connect with other food lovers.
+            Foodies is a platform for foodies to share their favorite recipes
+            with the world. It&apos;s a place to discover new dishes, and to
+            connect with other food lovers.
           </p>
         </section>
       </main>

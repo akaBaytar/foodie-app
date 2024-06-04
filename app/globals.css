@@ -41,3 +41,15 @@ body {
   font-weight: 500;
   color: #ddd8d8;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #282c34;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8f3a09;
+}
