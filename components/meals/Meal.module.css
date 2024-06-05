@@ -32,6 +32,10 @@
   margin: 0;
 }
 
+.meal h2 {
+  margin-block-start: 1rem;
+}
+
 .image {
   position: relative;
   height: 15rem;
@@ -54,7 +58,6 @@
 
 .actions {
   padding: 1rem;
-  text-align: right;
 }
 
 .actions a {
@@ -62,14 +65,14 @@
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  background: #ff9b05;
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+  transition: all 0.25s ease-in-out;
 }
 
 .actions a:hover,
 .actions a:active {
-  background: linear-gradient(90deg, #fd4715, #f9b241);
-  box-shadow: 0 0 12px rgba(242, 100, 18, 0.8);
+  background: #f9b241;
 }
