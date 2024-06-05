@@ -1,0 +1,94 @@
+.header {
+  gap: 3rem;
+  margin: 3rem auto 5rem auto;
+  width: 90%;
+  max-width: 75rem;
+  color: #ddd6cb;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.3333333333333333rem + 0.6666666666666667vw, 2rem);
+}
+
+.highlight {
+  background: linear-gradient(90deg, #f9572a, #ff8a05);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main {
+  width: 90%;
+  max-width: 40rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.main h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #ddd6cb;
+}
+
+.perks,
+.recipes {
+  list-style: none;
+  margin-block-end: 4rem;
+  padding: 0;
+}
+
+.perks li,
+.recipes li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-block-start: 2rem;
+}
+
+.perks img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+.header p,
+.perks p,
+.recipes p,
+.cta p {
+  font-family: 'Montserrat', sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+  color: #ddd6cb;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.8333333333333333rem + 0.6666666666666667vw, 1.5rem);
+}
+
+.recipes img {
+  width: 70%;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.cta button {
+  cursor: pointer;
+  border: none;
+  margin-block-start: 2rem;
+  margin-block-end: 4rem;
+  color: #ddd6cb;
+  background: linear-gradient(90deg, #f9572a, #ff8a05);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  transition: scale 0.1s ease-in-out;
+
+  &:active {
+    scale: 0.98;
+  }
+}
