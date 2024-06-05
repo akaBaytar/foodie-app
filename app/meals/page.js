@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import {Grid} from '@/components';
+import { Grid } from '@/components';
 import classes from './page.module.css';
 
 export default function Meals() {
