@@ -4,3 +4,4 @@ export { default as Footer } from './footer/Footer';
 export { default as Grid } from './meals/Grid';
 export { default as Meals } from './meals/Meals';
 export { default as ImagePicker } from './meals/ImagePicker';
+export { default as Button } from './meals/Button';
