@@ -4,6 +4,11 @@ import { Suspense } from 'react';
 import { Meals } from '@/components';
 import classes from './page.module.css';
 
+export const metadata = {
+  title: 'Foodie - All Meals',
+  description: 'Delicious meals, created by you.',
+};
+
 export default function MealsPage() {
   return (
     <>

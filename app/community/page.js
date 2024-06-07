@@ -9,6 +9,12 @@ import tomatoSalad from '@/public/images/tomato-salad.jpg';
 
 import classes from './page.module.css';
 
+export const metadata = {
+  title: 'Foodie - Community',
+  description:
+    'One shared passion: Food. Join our community and share your favorite recipes!',
+};
+
 export default function CommunityPage() {
   return (
     <>
@@ -54,7 +60,7 @@ export default function CommunityPage() {
         <section className={classes.cta}>
           <h2>Ready to Join?</h2>
           <p>Sign up now and start your culinary adventure!</p>
-          <button >Join Now</button>
+          <button>Join Now</button>
         </section>
       </main>
     </>

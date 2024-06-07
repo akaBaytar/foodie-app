@@ -3,6 +3,11 @@ import { shareMeal } from '@/lib/actions';
 
 import classes from './page.module.css';
 
+export const metadata = {
+  title: 'Foodie - Share Meal',
+  description: 'Share your favorite meal.',
+};
+
 export default function Share() {
   return (
     <>
