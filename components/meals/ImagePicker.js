@@ -31,7 +31,7 @@ export default function ImagePicker({ label }) {
 
   return (
     <div className={classes.picker}>
-      <label htmlFor=''>Image</label>
+      <label>Image</label>
 
       <div className={classes.buttonContainer}>
         <label htmlFor='image'>{label}</label>
