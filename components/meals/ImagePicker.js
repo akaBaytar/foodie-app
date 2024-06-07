@@ -31,10 +31,10 @@ export default function ImagePicker({ label }) {
 
   return (
     <div className={classes.picker}>
-      <label>Image</label>
+      <label>{label}</label>
 
       <div className={classes.buttonContainer}>
-        <label htmlFor='image'>{label}</label>
+        <label htmlFor='image' />
         <div className={classes.controls}>
           <input
             type='file'
